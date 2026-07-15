@@ -9,7 +9,7 @@ int main()
     int value;
     for(int i = 0; i < 3; i++)
     {
-        printf("Enter value: ");
+        printf("Enter numbers: ");
         scanf("%d", &value);
 
         if(top == SIZE - 1)
@@ -28,7 +28,7 @@ int main()
     }
     else
     {
-        printf("\nPopped element = %d\n", stack[top]);
+        printf("\nPopped number = %d\n", stack[top]);
         top--;
     }
     printf("\nRemaining stack:\n");

@@ -10,7 +10,7 @@ int main()
 
     for(int i = 0; i < SIZE; i++)
     {
-        printf("Enter value to push: ");
+        printf("Enter number to push: ");
         scanf("%d", &value);
 
         if(top == SIZE - 1)
@@ -24,7 +24,7 @@ int main()
         }
     }
 
-    printf("\nStack elements are:\n");
+    printf("\nStack numbers are:\n");
 
     for(int i = top; i >= 0; i--)
     {
